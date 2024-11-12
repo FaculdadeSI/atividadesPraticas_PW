@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <link rel="stylesheet" href="Silver.css">
+
+    <fieldset class="box">
+        <legend>
+            <fieldset class="boxTitle">
+            <h2>Informações pessoais</h2>
+            </fieldset>
+        </legend>
+
+        <div class="h3Text">
+            <h3>Nome: <textarea style="vertical-align: middle;"> </textarea></h3>
+            <h3>Endereço: <textarea style="vertical-align: middle;"> </textarea></h3>
+            <h3>Cidade: <textarea style="vertical-align: middle;"> </textarea></h3>
+        </div>
+
+        <div class="h3Title">
+            <h3>... mais informações pessoais ...</h3>
+        </div>
+    </fieldset>
+
+
+    <fieldset class="box">
+        <legend>
+            <fieldset class="boxTitle">
+        <h2>Histórico médico</h2>
+            </fieldset>
+        </legend>
+
+        <div class="h3Text">
+            <h3>Varíola: <input type="checkbox"></h3>
+            <h3>Caxumba: <input type="checkbox"></h3>
+            <h3>Tonturas: <input type="checkbox"></h3>
+            <h3>Espirros: <input type="checkbox"></h3>
+        </div>
+
+        <div class="h3Title">
+            <h3>... mais detalhes do histórico médico ...</h3>
+        </div>
+    </fieldset>
+
+    <fieldset class="box">
+        <legend>
+            <fieldset class="boxTitle">
+        <h2>Opções</h2>
+            </fieldset>
+        </legend>
+
+        <br><br>
+        <select name="select" style="width: 30%;">
+            <option value="nenhum">Nenhum</option>
+            <option value="cardiaco">Cardíaco</option>
+            <option value="hipertenso">Hipertenso</option>
+            <option value="diabetico">Diabético</option>
+        </select>
+
+        <br><br>
+    </fieldset>
+
+    <fieldset class="box">
+        <legend>
+            <fieldset class="boxTitle">
+                <h2>Medicação atual</h2>
+            </fieldset>
+        </legend>
+
+        <div class="h3Title">
+            <h3>Atualmente faz uso de algum medicamento? </h3>
+        </div>
+
+        <div class="h3Text">
+            <h3>Sim: <input type="checkbox"></h3>
+            <h3>Não: <input type="checkbox"></h3>
+        </div>
+
+        <div class="h3Title">
+            <h3>Se faz uso de algum medicamento, informe-o no espaço abaixo: </h3>
+        </div>
+
+        <textarea style="width: 70%; height: 35%;"></textarea>
+    </fieldset>
+
+    <br><br>
+
+    <button style="float: left; background-color: #555555; color: white; width: 45%;">Enviar</button>
+    <button style="float: right; background-color: #555555; color: white; width: 45%;">Reset</button>
+
+    <br><br>
+
+</body>
+
+</html>

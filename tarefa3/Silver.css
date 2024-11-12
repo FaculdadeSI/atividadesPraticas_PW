@@ -1,0 +1,37 @@
+body {
+    background-color: #bbbbbb;
+}
+
+.box { 
+    width: (max-content);
+    height: (max-content);
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 5%;
+    padding: 1%;
+    
+}
+
+.boxTitle{
+    width: (max-content);
+    height: (max-content);
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+h2{
+    color: #333333
+}
+
+.h3Title{
+    color: #333333;
+}
+
+.h3Text{
+    color: #ffffff
+}
+
+
